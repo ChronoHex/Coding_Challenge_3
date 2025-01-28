@@ -12,3 +12,16 @@ let totalOrders = orders.reduce((total, orders) => total + orders, 0); // Calcul
 
 console.log("Updated orders: ", orders); // Print the updated array of orders
 console.log("Total order count: ", totalOrders); // Print the total of all orders
+
+// task 3 - Employee Performance Tracking //
+let employee = {
+    name: "Eugene",
+    role: "Program Tester",
+    performanceScore: 90,
+    isActive: true
+}; // employee object
+
+employee.performanceScore = 95; // Increase the performance score by 5
+employee.promotionEligible = true; // Add a new property to the object
+
+console.log("Updated employee: ", employee); // Print the updated employee object
