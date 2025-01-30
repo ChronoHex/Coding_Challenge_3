@@ -36,3 +36,20 @@ let feedbacks = [
 feedbacks.push({customerName: "Plank", feedbackText: "Excellent service!", rating: 5}); // Add new feedback to the end of the array
 
 console.log("Updated feedbacks: ", feedbacks); // Print the updated array of feedbacks
+
+// task 5 - Inventory Management System //
+let inventory = {
+    itemName: "Jaw Breaker",
+    stockCount: 100,
+    price: 0.25,
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    }
+}; // inventory object
+
+console.log(inventory); // Print the inventory object
+console.log("Total inventory value: ", inventory.calculateTotalValue()); // Print the total value of the inventory
+
+
+
+
